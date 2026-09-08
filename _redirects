@@ -1,0 +1,2 @@
+# Intentionally empty. Cloudflare Pages resolves clean URLs and slug/index.html natively.
+# Do not add 200/301 rewrite rules here for existing clean paths.
