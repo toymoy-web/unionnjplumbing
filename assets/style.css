@@ -2,6 +2,8 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:'Nunito Sans',sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:16px}
+p{margin-bottom:16px}
+p:last-child{margin-bottom:0}
 h1,h2,h3,h4{font-family:'Sora',sans-serif;letter-spacing:-.02em}
 img{max-width:100%;display:block}
 a{color:inherit}
@@ -23,10 +25,10 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 nav .logo-img{height:38px}
 .mobilemenu .logo-img{height:32px}
 footer .logo-img{height:34px;margin-bottom:4px}
-.navlinks{display:flex;align-items:center}
-.navlinks>a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14px;margin-left:20px}
+.navlinks{display:flex;align-items:center;gap:20px}
+.navlinks>a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}
 .navlinks>a:hover{color:var(--indigo)}
-.navlinks .btn{margin-left:20px;font-size:14px;padding:11px 20px}
+.navlinks .btn{font-size:14px;padding:11px 20px}
 .hasdd{position:relative}
 .dd{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 20px 44px rgba(32,32,58,.14);padding:10px;min-width:270px;list-style:none;margin-top:10px}
 .hasdd:hover .dd,.hasdd:focus-within .dd{display:block}
