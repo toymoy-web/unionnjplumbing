@@ -108,6 +108,9 @@ footer{background:#fff;border-top:1px solid var(--line);padding:44px 0 20px;font
 footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}
 footer h4{color:var(--ink);font-family:'Sora';font-size:15.5px;margin-bottom:12px}
 footer a{color:var(--gray);text-decoration:none;display:block;margin-bottom:7px}
+.social-row{display:flex;gap:10px;margin-top:16px}
+.social-row a{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--soft);color:var(--indigo);margin-bottom:0;flex-shrink:0}
+.social-row a:hover{background:var(--indigo);color:#fff}
 footer a:hover{color:var(--indigo)}
 footer .fdisc{max-width:1180px;margin:26px auto 0;padding:18px 24px 0;border-top:1px solid var(--line);color:var(--gray);font-size:12px;line-height:1.6}
 .pagehead{background:var(--soft);padding:46px 0}
